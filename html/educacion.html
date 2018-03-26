@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educacion</title>
+  </head>
+    <body>
+      <header>
+        <svg width="180" height="150">
+
+          <image xlink:href="../media/ingeliz.svg" width="180px" x="3px" y="-15px"></image>
+          <font align="left"color="olive" face="Comic Sans MS,"size="6">Ingeniero en Sistemas Computacionales</font>
+          <hr>
+          <h1>Hoja de Vida</h1>
+          <h2>MARIA LIZBETH MALDONADO MARTINEZ</mark></h2>
+      </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2><ins>Educación</ins></h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th align="center">Año</th>
+            <th align="center">Institución</th>
+            <th align="center">Lugar</th>
+            <th align="center">¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1989</td>
+            <td align="center">Sec. Ofic. #122</td>
+            <td align="Left">Jilotepec, Edo. de Méx</td>
+            <td align="center"> Si</td>
+          </tr>
+          <tr>
+            <td >1992</td>
+            <td align="center">Instituto Tecnologico de Toluca</td>
+            <td align="Left">Metepec, Edo de Méx.</td>
+            <td align="center"> Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td align="center">Next University</td>
+            <td align="Left">Guadalajara, Jalisco</td>
+            <td align="center"> No</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2><ins>Agregar Estudios</ins></h2>
+      <form action="">
+        <fieldset>
+          <legend>formulario</legend>
+
+          <label for="año">Año:</label>
+            <input type="number"name="año" id="año" list="años" autofocus required placeholder="2016"></input>
+            <datalist id="años">
+              <option value="1992"/>
+              <option value="1998"/>
+              <option value="2000"/>
+              <option value="2006"/>
+              <option value="2012"/>
+              <option value="2018"/>
+              <option value="otro año"/>
+            </datalist>
+
+          <label for="institucion"> Institución:</label>
+           <textarea name="institucion" id="" rows="1" cols="35" placeholder="Instituto Tecnologico de Toluca"required ></textarea></br></br>
+
+          <label for="lugar">lugar:</label>
+            <textarea name="lugar" id="" rows="5" cols="50"required></textarea></br>
+          <p>
+            <label for="culmino">¿Culminó?:</label></br>
+            <input type="radio" name="culmino"value="1">Sí
+            <input type="radio" name="culmino"value="2"checked>No
+          </p>
+          <input type="submit"value="Enviar"></input>
+        </fielset>
+      </form>
+    </section>
+    <footer>
+      <hr>
+      <p><strong>Email:</strong><a href="mailto:lizmaldonado@live.com.mx">lizmaldonado@live.com.mx </a></br>
+        <strong>Tel movil:</strong> +(52) 1 33 1918 6290</br>
+        <strong>Dirección:</strong> Camino del Andaluz 231, San Martín del Tajo, Tlajomulco de Zuñiga, Jalisco, México.
+        <p align="right"><strong>©<sup>® Derechos Reservados </strong></p>
+      </p>
+    </footer>
+  </body>
+</html>
